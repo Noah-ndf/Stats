@@ -72,6 +72,7 @@ body {
 .image-header {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+    filter: invert(25%) sepia(9%) saturate(3107%) hue-rotate(245deg) brightness(65%) contrast(96%);
 }
 
 @media screen and (max-width: 1110px) {
@@ -87,6 +88,7 @@ body {
     .image-mobile{
         display: flex;
         max-width: 100%;
+        filter: invert(25%) sepia(9%) saturate(3107%) hue-rotate(245deg) brightness(65%) contrast(96%);
     }
     .image-header {
         display: none;
